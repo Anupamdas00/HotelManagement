@@ -1,0 +1,23 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "name": "anupam",
+      "email": "anu@gmail.com",
+      "mobile": 9806665755,
+      "password": "654321",
+      "id": 2
+    },
+    {
+      "name": "Pitu",
+      "email": "pitu@gmail.com",
+      "mobile": 9809087668,
+      "password": "1234",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

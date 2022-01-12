@@ -1,0 +1,25 @@
+create modal from getboostrap.com
+create form from getboostrap.com
+Now add HttpClientModule to app.module.ts for communicating HttpClientModule
+
+
+add detail form ready now to work on backend
+-----run json server type in terminal
+json-server --watch db.json --> for globally created json server
+npx json-server --watch db.json --> for locally created json server in app
+
+make a service named api
+make post get update delete method in api.service.ts
+
+create restaurent.model.ts for create data object
+and create object for posting data on desh-comp.ts
+
+show data from db to page
+create method getAll() and defined and call the getAll() to ngOnit (directly hooked otherwise the wont show ) and addRestaurent() also
+on template using *ngFor put data by interpolation 
+
+delete record
+
+edit record
+
+make login and signup component and made authentication
