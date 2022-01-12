@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
     <div class="container-fluid">
-        <a href="#" class="navbar-brand"><h4>My Restaurent</h4></a>         
+        <a href="#" class="navbar-brand"><h4>My Restaurant</h4></a>         
             <ul class="navbar-nav px-2">
                 <li class="nav-item">
                     <a href="" class="nav-link" >Home</a>
@@ -13,7 +13,7 @@
                 </li>
             </ul>
             <div class="d-flex ">
-                <button type="button" (click)="clickAddRest()" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">Add Restaurent</button>
+                <button type="button" (click)="clickAddRest()" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">Add Restaurant</button>
                 <button class="btn btn-danger mx-3" routerLink="/login">Logout</button>
             </div>       
     </div>
@@ -21,7 +21,7 @@
 <div class="container-fluid bg-info">
     <div class="p-5 mb-4 rounded-3">
         <h1 class="display-5 fw-bold fst-italic">Welcome to the site</h1>
-        <p class="col-md-8 fs-4 ">You can save records of all restaurent</p>
+        <p class="col-md-8 fs-4 ">You can save records of all Restaurant</p>
     </div>
 </div>
 <div class="container ">
@@ -29,7 +29,7 @@
         <thead>
             <tr>
                <th scope="col">#</th> 
-               <th scope="col">Restaunrent Name</th> 
+               <th scope="col">Restaurant Name</th> 
                <th scope="col">Email</th> 
                <th scope="col">Mobile</th> 
                <th scope="col">Address</th> 
@@ -64,8 +64,8 @@
                 <div class="modal-body">
                     <form [formGroup]="formValue">
                         <div class="mb-3">
-                            <label for="name" class="form-label">Restaurent Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="enter Restaurent Name" formControlName="restaurent_name">
+                            <label for="name" class="form-label">Restaurant Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="enter Restaurant Name" formControlName="restaurent_name">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
